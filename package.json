@@ -1,0 +1,50 @@
+{
+  "name": "react-techs-logos",
+  "private": false,
+  "version": "0.0.0",
+  "type": "module",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/react-techs-logos.umd.cjs",
+  "module": "./dist/react-techs-logos.js",
+  "types": "./dist/main.d.ts",
+  "author": "lucasferreiralimax (https://github.com/lucasferreiralimax)",
+  "repository": "https://github.com/criar-art/react-techs-logos",
+  "bugs": {
+    "url": "https://github.com/criar-art/react-techs-logos/issues"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/react-techs-logos.js",
+      "require": "./dist/react-techs-logos.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:module": "tsc && vite build --config vite-module.config.js",
+    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.16.3",
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "@vitejs/plugin-react": "^4.0.0",
+    "eslint": "^8.38.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.3.4",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-style-inject": "^0.0.1",
+    "vite-plugin-svgr": "^2.4.0"
+  }
+}
