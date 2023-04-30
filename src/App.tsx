@@ -15,6 +15,16 @@ function App() {
         </a>
       </div>
       <h1>react-techs-logos@{ version }</h1>
+      <h2>Install</h2>
+      <code>
+        npm install --save react-techs-logos
+      </code>
+      <h2>Usage</h2>
+      <code>
+          import ReactTechsLogs from 'react-techs-logos';
+          <br />
+          {`<ReactTechsLogos />`}
+      </code>
       <ReactTechsLogos />
     </>
   )
