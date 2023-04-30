@@ -10,11 +10,11 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://react.dev" target="_blank">
+        <a href="https://github.com/criar-art/react-techs-logos" target="_blank">
           <img src={reactLogo} className="logo react" alt="React logo" />
+          <h1>react-techs-logos@{ version }</h1>
         </a>
       </div>
-      <h1>react-techs-logos@{ version }</h1>
       <h2>Install</h2>
       <code>
         npm install --save react-techs-logos
