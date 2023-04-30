@@ -2,7 +2,11 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
@@ -16,6 +20,13 @@
 }
 .logo.react:hover img {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+code {
+  background: #000;
+  color: #f00;
+  padding: 1rem;
+  display: flex;
 }
 
 @keyframes logo-spin {

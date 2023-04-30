@@ -21,12 +21,33 @@ function App() {
       </code>
       <h2>Usage</h2>
       <code>
-          import ReactTechsLogs from 'react-techs-logos';
-          <br />
-          {`<ReactTechsLogos />`}
+        import ReactTechsLogs from 'react-techs-logos';
       </code>
-      <h1 className='titleList'>List of techs</h1>
+      <h2 className='title'>Single tech</h2>
+      <code>
+        {`<ReactTechsLogos name="react" />`}
+      </code>
+      <ReactTechsLogos name="react" />
+      <h2 className='title'>List of techs limited</h2>
+      <code>
+        {`<ReactTechsLogos list={['vue', 'react', 'angular', 'ember']} />`}
+      </code>
+      <ReactTechsLogos list={['vue', 'react', 'angular', 'ember']} />
+      <h2 className='title'>List of techs</h2>
+      <code>
+        {`<ReactTechsLogos />`}
+      </code>
       <ReactTechsLogos />
+      <h2 className='title'>List of techs hiddenLogos items</h2>
+      <code>
+        {`<ReactTechsLogos hiddenLogos={['android', 'apple', 'vue', 'react', 'angular', 'ember']} />`}
+      </code>
+      <ReactTechsLogos hiddenLogos={['android', 'apple', 'vue', 'react', 'angular', 'ember']} />
+      <h2 className='title'>List of techs with hiddenLabel</h2>
+      <code>
+        {`<ReactTechsLogos hiddenLabel />`}
+      </code>
+      <ReactTechsLogos hiddenLabel />
     </>
   )
 }

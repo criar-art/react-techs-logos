@@ -15,4 +15,17 @@ import ReactTechsLogs from 'react-techs-logos';
 
 // list all logos
 <ReactTechsLogos />
+
+// single icon
+<ReactTechsLogos name="javascript" />
+
+// list limited logos
+<ReactTechsLogos list={['vue','javascript', 'react', 'angular']} />
+
+// list all logos with hiddenLogos
+<ReactTechsLogos hiddenLogos={['vue','javascript', 'react', 'angular', 'android']} />
+
+// Hidden label
+<ReactTechsLogos name="javascript" hiddenLabel />
+<ReactTechsLogos hiddenLabel />
 ```
