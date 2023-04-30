@@ -2,8 +2,8 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 import pkg from '../package.json'
 
-// import ReactTechsLogos from './components/ReactTechsLogos'
-import ReactTechsLogos from 'react-techs-logos'
+import ReactTechsLogos from './components/ReactTechsLogos'
+// import ReactTechsLogos from 'react-techs-logos'
 
 function App() {
   const version: any = pkg.version;
@@ -25,6 +25,7 @@ function App() {
           <br />
           {`<ReactTechsLogos />`}
       </code>
+      <h1 className='titleList'>List of techs</h1>
       <ReactTechsLogos />
     </>
   )

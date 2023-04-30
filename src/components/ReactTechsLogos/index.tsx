@@ -1,4 +1,4 @@
-import './style.css'
+import './style.scss'
 
 import { ReactComponent as IconAndroid } from '../../assets/techs/android.svg'
 import { ReactComponent as IconApple } from '../../assets/techs/apple.svg'
@@ -121,13 +121,14 @@ const techs = [
 function ReactTechsLogos() {
   return (
     <>
-      <h1 className='titleList'>List of techs</h1>
-      {techs.map((tech) => (
-        <figure key={tech.name}>
-          <tech.icon />
-          <figcaption>{tech.name}</figcaption>
-        </figure>
-      ))}
+      <section className="techs">
+        {techs.map((tech) => (
+          <figure className="tech-container" key={tech.name}>
+            <tech.icon />
+            <figcaption>{tech.name}</figcaption>
+          </figure>
+        ))}
+      </section>
     </>
   )
 }
