@@ -10,8 +10,8 @@ function App() {
   return (
     <>
       <div>
-        <a href="https://github.com/criar-art/react-techs-logos" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
+        <a className="logo react" href="https://github.com/criar-art/react-techs-logos" target="_blank">
+          <img src={reactLogo} alt="React logo" />
           <h1>react-techs-logos@{ version }</h1>
         </a>
       </div>
