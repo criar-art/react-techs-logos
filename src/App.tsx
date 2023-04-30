@@ -1,7 +1,8 @@
 import reactLogo from './assets/react.svg'
 import './App.css'
 
-import ReactTechsLogos from './components/ReactTechsLogos'
+// import ReactTechsLogos from './components/ReactTechsLogos'
+import ReactTechsLogos from 'react-techs-logos'
 
 function App() {
   return (
