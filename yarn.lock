@@ -1465,6 +1465,15 @@ react-techs-logos@^0.0.7:
     react-dom "^18.2.0"
     react-techs-logos "0.0.4"
 
+react-techs-logos@^0.0.8:
+  version "0.0.8"
+  resolved "https://registry.npmjs.org/react-techs-logos/-/react-techs-logos-0.0.8.tgz"
+  integrity sha512-5k602QVwfWhDczkx7OHQxZJG7PaP8kN9+0//c2pjZftV/+TUSikbzjLBIasYm4kRcGIb3AmAKyy75c8rv7iaqA==
+  dependencies:
+    react "^18.2.0"
+    react-dom "^18.2.0"
+    react-techs-logos "^0.0.7"
+
 react-techs-logos@0.0.4:
   version "0.0.4"
   resolved "https://registry.npmjs.org/react-techs-logos/-/react-techs-logos-0.0.4.tgz"
