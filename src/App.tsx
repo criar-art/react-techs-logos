@@ -6,9 +6,10 @@ import ReactTechsLogos from './components/ReactTechsLogos'
 // import ReactTechsLogos from 'react-techs-logos'
 
 function App() {
-  const version: any = pkg.version;
+  const version: string = pkg.version;
+
   return (
-    <>
+    <div data-testid='app-container'>
       <div>
         <a className="logo react" href="https://github.com/criar-art/react-techs-logos" target="_blank">
           <img src={reactLogo} alt="React logo" />
@@ -65,7 +66,7 @@ function App() {
         </code>
         <ReactTechsLogos hiddenLabel />
       </div>
-    </>
+    </div>
   )
 }
 
