@@ -130,6 +130,7 @@ function ReactTechsLogos(props: any) {
       ) : (
         props.list ? (
           <section
+            data-testid='techs-container-list'
             className={`techs ${props.className ? props.className : ''}`}
           >
             {getTechs(props.list).map((tech) => (
@@ -141,7 +142,10 @@ function ReactTechsLogos(props: any) {
           </section>
         ) : (
           props.hiddenLogos ? (
-            <section className={`techs ${props.className ? props.className : ''}`}>
+            <section
+              data-testid='techs-container-hiddenLogos'
+              className={`techs ${props.className ? props.className : ''}`}
+            >
               {hiddenTechs(props.hiddenLogos).map((tech) => (
                 <figure className={`tech-container ${tech.name.toLocaleLowerCase()}`} key={tech.name}>
                   {tech.icon}
@@ -150,7 +154,10 @@ function ReactTechsLogos(props: any) {
               ))}
             </section>
           ) : (
-            <section className={`techs ${props.className ? props.className : ''}`}>
+            <section
+              data-testid='techs-container'
+              className={`techs ${props.className ? props.className : ''}`}
+            >
               {techs.map((tech) => (
                 <figure className={`tech-container ${tech.name.toLocaleLowerCase()}`} key={tech.name}>
                   {tech.icon}
