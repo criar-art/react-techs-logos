@@ -73,7 +73,7 @@ const techs = [
   { name: 'C++',         icon: <IconCpp />,        url: 'https://learn.microsoft.com/en-us/dotnet/csharp' },
   { name: 'VisualCode',  icon: <IconVisualCode />, url: 'https://code.visualstudio.com' },
   { name: 'Github',      icon: <IconGithub />,     url: 'https://github.com/criar-art' },
-  { name: 'NPM',         icon: <IconNpm />,        url: 'npmjs.com/package/vue-techs-logos' },
+  { name: 'NPM',         icon: <IconNpm />,        url: 'https://npmjs.com/package/vue-techs-logos' },
   { name: 'YouTube',     icon: <IconYotube />,     url: 'https://youtube.com' },
   { name: 'Wordpress',   icon: <IconWordpress />,  url: 'https://wordpress.com' },
   { name: 'Tumblr',      icon: <IconTumblr />,     url: 'https://www.tumblr.com' },
