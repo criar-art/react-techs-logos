@@ -33,17 +33,20 @@ figure.tech-container {
 figure {
   position: relative;
   text-align: center;
-  figcaption.tooltip {
-    position: absolute;
-    bottom: 2%;
-    background: var(--vtl-background-tooltip);
-    box-shadow: 0 4px 10px var(--vtl-shadow-tooltip);
-    padding: 0.2rem 0.5rem;
-    border-radius: 5px;
-    pointer-events: none;
-    opacity: 0;
-    transition: .3s all;
-    color: var(--vtl-text);
+  figcaption {
+    font-size: .7rem;
+    &.tooltip {
+      position: absolute;
+      bottom: 2%;
+      background: var(--vtl-background-tooltip);
+      box-shadow: 0 4px 10px var(--vtl-shadow-tooltip);
+      padding: 0.2rem 0.5rem;
+      border-radius: 5px;
+      pointer-events: none;
+      opacity: 0;
+      transition: .3s all;
+      color: var(--vtl-text);
+    }
   }
   &:hover {
     figcaption.tooltip {
@@ -63,11 +66,11 @@ figure {
   }
   body {
     --vtl-background: rgba(0,0,0, .05);
-    --vtl-background-tooltip: #444; 
+    --vtl-background-tooltip: #444;
     --vtl-shadow-tooltip: rgba(0,0,0,.2);
     --vtl-text: #fff;
     --vtl-background-svg: #000;
-  }  
+  }
 }
 
 @media (prefers-color-scheme: dark) {
