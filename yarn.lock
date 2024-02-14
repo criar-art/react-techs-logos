@@ -2354,14 +2354,14 @@ react-refresh@^0.14.0:
   resolved "https://registry.npmjs.org/react-refresh/-/react-refresh-0.14.0.tgz"
   integrity sha512-wViHqhAd8OHeLS/IRMJjTSDHF3U9eWi62F/MledQGPdJGDhodXJ9PBLNGr6WWL7qlH12Mt3TyTpbS+hGXMjCzQ==
 
-react-techs-logos@^0.1.3, react-techs-logos@^0.1.5:
-  version "0.1.5"
-  resolved "https://registry.npmjs.org/react-techs-logos/-/react-techs-logos-0.1.5.tgz"
-  integrity sha512-CW9quGmW46ZMjq2gufMwZaDS2IdlUncbcRTBFNvuqU0FmSUu6v3qqytqli+Ygx/R3f40rhGBCYgJ9E2XmvQWVQ==
+react-techs-logos@^0.1.5, react-techs-logos@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.npmjs.org/react-techs-logos/-/react-techs-logos-0.1.6.tgz"
+  integrity sha512-PxkAxXCfxcB7wqyyTLhcrsNW5HLqanySi/Jk1v5rFbxIPswIn5kykM7x/eOVRHz3yWhpOQh9KcMi73jH+Yx++Q==
   dependencies:
     react "^18.2.0"
     react-dom "^18.2.0"
-    react-techs-logos "^0.1.3"
+    react-techs-logos "^0.1.5"
 
 react@^18.2.0:
   version "18.2.0"
