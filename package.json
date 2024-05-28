@@ -32,7 +32,7 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-techs-logos": "^0.1.6"
+    "react-techs-logos": "^0.1.7"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.5",
@@ -41,13 +41,13 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@types/testing-library__jest-dom": "^6.0.0",
-    "@typescript-eslint/eslint-plugin": "^7.10.0",
-    "@typescript-eslint/parser": "^7.10.0",
+    "@typescript-eslint/eslint-plugin": "^7.11.0",
+    "@typescript-eslint/parser": "^7.11.0",
     "@vitejs/plugin-react": "^4.3.0",
     "eslint": "^9.3.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
-    "jsdom": "^24.0.0",
+    "jsdom": "^24.1.0",
     "sass": "^1.77.2",
     "typescript": "^5.4.5",
     "vite": "^5.2.11",
