@@ -32,7 +32,7 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-techs-logos": "^0.1.7"
+    "react-techs-logos": "^0.1.8"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.4.5",
