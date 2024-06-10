@@ -35,6 +35,7 @@
     "react-techs-logos": "^0.1.8"
   },
   "devDependencies": {
+    "@testing-library/dom": "^10.1.0",
     "@testing-library/jest-dom": "^6.4.5",
     "@testing-library/react": "^16.0.0",
     "@types/node": "^20.14.2",
