@@ -27,16 +27,14 @@ function App() {
       <div className="content">
         <h2>Usage</h2>
         <code>import ReactTechsLogs from 'react-techs-logos'</code>
-      </div>
-      <div className="content">
-        <h2 className="title">Single tech</h2>
-        <code>{`<ReactTechsLogos name="react" />`}</code>
-        <ReactTechsLogos name="react" />
+        <br/>
+        <code>{`<ReactTechsLogos name="facebook" />`}</code>
+        <ReactTechsLogos name="facebook" />
       </div>
       <div className="content">
         <h2 className="title">Single tech hiddenLabel</h2>
-        <code>{`<ReactTechsLogos name="react" hiddenLabel />`}</code>
-        <ReactTechsLogos name="react" hiddenLabel />
+        <code>{`<ReactTechsLogos name="facebook" hiddenLabel />`}</code>
+        <ReactTechsLogos name="facebook" hiddenLabel />
       </div>
       <div className="content">
         <h2 className="title">List of techs limited</h2>
