@@ -51,7 +51,7 @@
     "jsdom": "^24.1.0",
     "sass": "^1.77.6",
     "typescript": "^5.5.2",
-    "vite": "^5.3.1",
+    "vite": "^5.3.2",
     "vite-plugin-style-inject": "^0.0.1",
     "vite-plugin-svgr": "^4.2.0",
     "vitest": "^1.6.0"
