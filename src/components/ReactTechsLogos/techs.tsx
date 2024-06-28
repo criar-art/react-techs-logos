@@ -71,6 +71,7 @@ import IconDribbble from '../../assets/techs/dribbble.svg?react'
 import IconDocker from '../../assets/techs/docker.svg?react'
 import IconDiscord from '../../assets/techs/discord.svg?react'
 import IconDigitalOcean from '../../assets/techs/digitalocean.svg?react'
+import IconExpo from '../../assets/techs/expo.svg?react'
 
 const techs = [
   { name: 'Android',        icon: <IconAndroid />,        url: 'https://www.android.com' },
@@ -145,7 +146,8 @@ const techs = [
   { name: 'Dribbble',       icon: <IconDribbble />,       url: 'https://dribbble.com' },
   { name: 'Docker',         icon: <IconDocker />,         url: 'https://docker.com' },
   { name: 'Discord',        icon: <IconDiscord />,        url: 'https://discord.com' },
-  { name: 'DigitalOcean',   icon: <IconDigitalOcean />,   url: 'https://digitalocean.com' }
+  { name: 'DigitalOcean',   icon: <IconDigitalOcean />,   url: 'https://digitalocean.com' },
+  { name: 'Expo',           icon: <IconExpo />,           url: 'https://expo.dev' }
 ];
 
 export default techs
