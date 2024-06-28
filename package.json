@@ -32,7 +32,7 @@
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-techs-logos": "^0.1.8"
+    "react-techs-logos": "^0.1.9"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.2.0",
@@ -45,7 +45,7 @@
     "@typescript-eslint/eslint-plugin": "^7.14.1",
     "@typescript-eslint/parser": "^7.14.1",
     "@vitejs/plugin-react": "^4.3.1",
-    "eslint": "^9.5.0",
+    "eslint": "^9.6.0",
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.7",
     "jsdom": "^24.1.0",
