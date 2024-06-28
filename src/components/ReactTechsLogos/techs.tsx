@@ -72,6 +72,20 @@ import IconDocker from '../../assets/techs/docker.svg?react'
 import IconDiscord from '../../assets/techs/discord.svg?react'
 import IconDigitalOcean from '../../assets/techs/digitalocean.svg?react'
 import IconExpo from '../../assets/techs/expo.svg?react'
+import IconNextJS from '../../assets/techs/nextjs.svg?react'
+import IconNuxt from '../../assets/techs/nuxt.svg?react'
+import IconQwik from '../../assets/techs/qwik.svg?react'
+import IconSpringBoot from '../../assets/techs/springboot.svg?react'
+import IconVercel from '../../assets/techs/vercel.svg?react'
+import IconAstro from '../../assets/techs/astro.svg?react'
+import IconTurbo from '../../assets/techs/turbo.svg?react'
+import IconPandas from '../../assets/techs/pandas.svg?react'
+import IconAWS from '../../assets/techs/aws.svg?react'
+import IconNvidia from '../../assets/techs/nvidia.svg?react'
+import IconTensorFlow from '../../assets/techs/tensorflow.svg?react'
+import IconGemini from '../../assets/techs/gemini.svg?react'
+import IconShopify from '../../assets/techs/shopify.svg?react'
+import IconSteam from '../../assets/techs/steam.svg?react'
 
 const techs = [
   { name: 'Android',        icon: <IconAndroid />,        url: 'https://www.android.com' },
@@ -147,7 +161,21 @@ const techs = [
   { name: 'Docker',         icon: <IconDocker />,         url: 'https://docker.com' },
   { name: 'Discord',        icon: <IconDiscord />,        url: 'https://discord.com' },
   { name: 'DigitalOcean',   icon: <IconDigitalOcean />,   url: 'https://digitalocean.com' },
-  { name: 'Expo',           icon: <IconExpo />,           url: 'https://expo.dev' }
+  { name: 'Expo',           icon: <IconExpo />,           url: 'https://expo.dev' },
+  { name: 'Next.js',        icon: <IconNextJS />,         url: 'https://nextjs.org' },
+  { name: 'Nuxt',           icon: <IconNuxt />,           url: 'https://nuxt.com' },
+  { name: 'Qwik',           icon: <IconQwik />,           url: 'https://qwik.dev' },
+  { name: 'Astro',          icon: <IconAstro />,          url: 'https://astro.build' },
+  { name: 'Turbo',          icon: <IconTurbo/>,           url: 'https://turbo.build' },
+  { name: 'SpringBoot',     icon: <IconSpringBoot />,     url: 'https://spring.io' },
+  { name: 'Vercel',         icon: <IconVercel />,         url: 'https://vercel.com' },
+  { name: 'Pandas',         icon: <IconPandas />,         url: 'https://pandas.pydata.org' },
+  { name: 'AWS',            icon: <IconAWS />,            url: 'https://aws.amazon.com' },
+  { name: 'Nvidia',         icon: <IconNvidia />,         url: 'https://www.nvidia.com' },
+  { name: 'TensorFlow',     icon: <IconTensorFlow />,     url: 'https://www.tensorflow.org' },
+  { name: 'Gemini',         icon: <IconGemini />,         url: 'https://gemini.google.com' },
+  { name: 'Shopify',        icon: <IconShopify />,        url: 'https://www.shopify.com' },
+  { name: 'Steam',          icon: <IconSteam />,          url: 'https://www.steam.com' }
 ];
 
 export default techs
