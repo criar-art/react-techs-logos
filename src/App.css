@@ -42,6 +42,7 @@ code {
   border-radius: 10px;
   display: inline-block;
   margin-bottom: 1rem;
+  border: 1px solid rgba(255,255,255,.2)
 }
 
 .content {
@@ -58,6 +59,21 @@ code {
   margin-top: 0;
 }
 
+.content button {
+  background: var(--vtl-background-gradient);
+  color: var(--vtl-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid var(--vtl-background);
+  padding: .5rem 1rem .5rem .5rem;
+  cursor: pointer;
+}
+.content button svg {
+  margin-right: 1rem;
+}
+
 .limited .techs {
   align-items: flex-start !important;
   justify-content: flex-start !important;
@@ -65,7 +81,7 @@ code {
 
 .input-search {
   padding: 1rem;
-  margin-bottom: 1rem;
+  margin: 1rem 0;
   border-radius: 10px;
   background: var(--vtl-background);
   border: 2px solid var(--vtl-background);
