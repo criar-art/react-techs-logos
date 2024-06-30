@@ -6,6 +6,8 @@
     @media (prefers-color-scheme: light) {
       .aws {fill:#252F3E;}
     }
+    .aws {fill:#252F3E;}
+    .darkmode .aws {fill:#fff;}
   </style>
   <g clip-path="url(#clip0_1062_931)">
     <path

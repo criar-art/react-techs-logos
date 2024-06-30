@@ -1,7 +1,7 @@
 import reactLogo from "./assets/techs/react.svg";
 import "./App.css";
 import pkg from "../package.json";
-
+import DarkModeReact from 'darkmode-react-component';
 import ReactTechsLogos from "./components/ReactTechsLogos";
 // import ReactTechsLogos from 'react-techs-logos'
 
@@ -19,6 +19,7 @@ function App() {
           <img src={reactLogo} alt="React logo" />
           <h1>react-techs-logos@{version}</h1>
         </a>
+        <DarkModeReact />
       </div>
       <div className="content">
         <h2>Install</h2>
