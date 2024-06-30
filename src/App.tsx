@@ -1,12 +1,21 @@
 import reactLogo from "./assets/techs/react.svg";
 import "./App.css";
 import pkg from "../package.json";
-import DarkModeReact from 'darkmode-react-component';
+import DarkModeReact from "darkmode-react-component";
 import ReactTechsLogos from "./components/ReactTechsLogos";
+import { useState } from "react";
+import techs from "./components/ReactTechsLogos/techs";
 // import ReactTechsLogos from 'react-techs-logos'
 
 function App() {
   const version: string = pkg.version;
+  const [search, setSearch] = useState("");
+  const filteredArray = techs
+    .filter((item: any) => {
+      const nameItem = item.name.toLowerCase();
+      return nameItem.includes(search.trim().toLowerCase());
+    })
+    .map((item) => item.name);
 
   return (
     <div data-testid="app-container">
@@ -28,40 +37,31 @@ function App() {
       <div className="content">
         <h2>Usage</h2>
         <code>import ReactTechsLogs from 'react-techs-logos'</code>
-        <br/>
+        <br />
         <code>{`<ReactTechsLogos name="facebook" />`}</code>
-        <ReactTechsLogos name="facebook" />
-      </div>
-      <div className="content">
-        <h2 className="title">Single tech hiddenLabel</h2>
+        <h2 className="title">Hidden Label</h2>
         <code>{`<ReactTechsLogos name="facebook" hiddenLabel />`}</code>
-        <ReactTechsLogos name="facebook" hiddenLabel />
-      </div>
-      <div className="content limited">
-        <h2 className="title">List of techs limited</h2>
+        <h2 className="title">List of techs filtered</h2>
         <code>
           {`<ReactTechsLogos list={['vue', 'react', 'angular', 'ember']} />`}
         </code>
-        <ReactTechsLogos list={["vue", "react", "angular", "ember"]} />
-      </div>
-      <div className="content">
-        <h2 className="title">List of techs</h2>
-        <code>{`<ReactTechsLogos />`}</code>
-        <ReactTechsLogos />
-      </div>
-      <div className="content">
-        <h2 className="title">List of techs hiddenLogos items</h2>
+        <h2 className="title">List of techs hiddenLogos</h2>
         <code>
           {`<ReactTechsLogos hiddenLogos={['android', 'apple', 'vue', 'react', 'angular', 'ember']} />`}
         </code>
-        <ReactTechsLogos
-          hiddenLogos={["android", "apple", "vue", "react", "angular", "ember"]}
-        />
       </div>
       <div className="content">
-        <h2 className="title">List of techs with hiddenLabel</h2>
-        <code>{`<ReactTechsLogos hiddenLabel />`}</code>
-        <ReactTechsLogos hiddenLabel />
+        <h2 className="title">Full list of techs {search}</h2>
+        <code>{`<ReactTechsLogos />`}</code>
+        <br/>
+        <input
+          className="input-search"
+          type="text"
+          value={search}
+          onChange={(e: any) => setSearch(e.target.value)}
+          placeholder="Search logo name..."
+        />
+        <ReactTechsLogos list={filteredArray} />
       </div>
     </div>
   );

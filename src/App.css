@@ -1,5 +1,6 @@
 #root {
   max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -60,6 +61,16 @@ code {
 .limited .techs {
   align-items: flex-start !important;
   justify-content: flex-start !important;
+}
+
+.input-search {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 10px;
+  background: var(--vtl-background);
+  border: 2px solid var(--vtl-background);
+  color: var(--vtl-text);
+  width: calc(100% - 2rem);
 }
 
 @keyframes logo-spin {
