@@ -12,6 +12,10 @@
   align-items: center;
 }
 
+.logo h1 {
+  font-size: 1.5rem;
+}
+
 .logo img {
   height: 6em;
   padding: 1.5em;
@@ -22,6 +26,12 @@
   position: fixed;
   top: 0;
   right: 0;
+  padding: .6rem !important;
+}
+
+.btn-mode svg {
+  width: 20px;
+  height: 20px;
 }
 
 code {
@@ -36,13 +46,20 @@ code {
 .content {
   background: var(--vtl-background);
   background: var(--vtl-background-gradient);
-  padding: 1rem 2rem;
-  margin: 2rem;
+  padding: 1rem 1rem;
+  margin: 1rem;
   border-radius: 10px;
+  border: 1px solid var(--vtl-background);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.2), 0 10px 20px rgba(0,0,0,.1);
 }
 
 .content h2 {
   margin-top: 0;
+}
+
+.limited .techs {
+  align-items: flex-start !important;
+  justify-content: flex-start !important;
 }
 
 @keyframes logo-spin {
@@ -56,7 +73,7 @@ code {
 
 @media screen and (max-width: 800px) {
   .logo h1 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 }
 

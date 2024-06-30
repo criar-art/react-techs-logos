@@ -37,7 +37,7 @@ function App() {
         <code>{`<ReactTechsLogos name="facebook" hiddenLabel />`}</code>
         <ReactTechsLogos name="facebook" hiddenLabel />
       </div>
-      <div className="content">
+      <div className="content limited">
         <h2 className="title">List of techs limited</h2>
         <code>
           {`<ReactTechsLogos list={['vue', 'react', 'angular', 'ember']} />`}

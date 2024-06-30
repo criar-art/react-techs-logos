@@ -3,7 +3,6 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  gap: 20px;
   .title {
     width: 100%;
     text-align: center;
@@ -33,6 +32,7 @@ figure.tech-container {
 figure {
   position: relative;
   text-align: center;
+  margin: .2rem;
   figcaption {
     font-size: .7rem;
     &.tooltip {
