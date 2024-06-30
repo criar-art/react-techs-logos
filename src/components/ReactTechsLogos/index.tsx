@@ -1,26 +1,33 @@
-import "./style.scss"
-import techs from "./techs"
+import "./style.scss";
+import { Tech } from "./types";
+import techs from "./techs";
 
 const getTech: any = (name: string) => {
-  return techs.find((item) => item.name.toLowerCase() == name.toLowerCase())
+  return techs.find((item) => item.name.toLowerCase() == name.toLowerCase());
 };
 
-const getTechs = (items: any) =>
-  techs.filter((tech) =>
-    items.find((item: any) => {
-      return tech.name.toLowerCase() == item.toLowerCase()
+const getTechs = (items: string[]) => {
+  const lowercasedArray = items.map((item: string) => item.toLowerCase());
+  return techs.filter((tech: Tech) =>
+    lowercasedArray.find((item: string) => {
+      return tech.name.toLowerCase() == item.toLowerCase();
     })
-  )
+  );
+};
 
-const hiddenTechs = (items: any) =>
-  techs.filter((item) => !items.includes(item.name.toLocaleLowerCase()))
+const hiddenTechs = (items: string[]) => {
+  const lowercasedArray = items.map((item: string) => item.toLowerCase());
+  return techs.filter(
+    (item: Tech) => !lowercasedArray.includes(item.name.toLocaleLowerCase())
+  );
+};
 
 function ReactTechsLogos(props: any) {
   const listTechs = props.list
     ? getTechs(props.list)
     : props.hiddenLogos
     ? hiddenTechs(props.hiddenLogos)
-    : techs
+    : techs;
 
   return (
     <>
@@ -64,4 +71,4 @@ function ReactTechsLogos(props: any) {
   );
 }
 
-export default ReactTechsLogos
+export default ReactTechsLogos;

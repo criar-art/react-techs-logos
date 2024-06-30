@@ -87,7 +87,9 @@ import IconGemini from '../../assets/techs/gemini.svg?react'
 import IconShopify from '../../assets/techs/shopify.svg?react'
 import IconSteam from '../../assets/techs/steam.svg?react'
 
-const techs = [
+import { Tech } from './types'
+
+const techs: Tech[] = [
   { name: 'Android',        icon: <IconAndroid />,        url: 'https://www.android.com' },
   { name: 'Apple',          icon: <IconApple />,          url: 'https://www.apple.com' },
   { name: 'Linux',          icon: <IconLinux />,          url: 'https://ubuntu.com' },
