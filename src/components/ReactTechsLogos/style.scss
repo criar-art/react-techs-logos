@@ -11,7 +11,8 @@
 }
 
 figure.tech-container {
-  background: var(--vtl-background);
+  background: transparent;
+  border: 1px solid var(--vtl-background);
   border-radius: 100px;
   width: 120px !important;
   height: 120px;
@@ -20,7 +21,10 @@ figure.tech-container {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  transition: .3s all;
   &:hover {
+    background: var(--vtl-background);
+    border-color: var(--vtl-background);
     transform: scale(1.1);
   }
   svg {
