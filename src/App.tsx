@@ -19,7 +19,7 @@ function App() {
           <img src={reactLogo} alt="React logo" />
           <h1>react-techs-logos@{version}</h1>
         </a>
-        <DarkModeReact />
+        <DarkModeReact hiddenLabel />
       </div>
       <div className="content">
         <h2>Install</h2>
