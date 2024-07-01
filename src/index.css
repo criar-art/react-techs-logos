@@ -10,6 +10,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  --primary: #087ea4;
+  --secondary: #62d9fb;
+  --main-color: #2c3e50;
 }
 
 a {
@@ -18,13 +22,28 @@ a {
   text-decoration: inherit;
 }
 
+html {
+  background: var(--primary);
+}
+
 body {
   margin: 0;
-  display: flex;
+  padding: 0;
   min-width: 320px;
   min-height: 100vh;
   color: #213547;
   background-color: #ffffff;
+}
+
+body:before,
+body:after {
+  content: "";
+  display: flex;
+  height: 20px;
+  background: var(--primary);
+  background: linear-gradient(90deg, var(--primary) 50%, var(--secondary) 100%);
+  box-shadow: 0 0 0 1px rgba(255,255,255,.6), 0 0 20px rgba(0, 0, 0, 0.4);
+  z-index: 11;
 }
 
 body.darkmode {
