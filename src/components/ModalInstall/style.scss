@@ -29,6 +29,17 @@
   code:last-of-type {
     margin-bottom: 0;
   }
+  code {
+    background: #fff;
+    color: #000;
+  }
+}
+
+.darkmode {
+  .modal-content code {
+    background: #000;
+    color: #fff;
+  }
 }
 
 .modal-button {
