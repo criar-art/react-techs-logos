@@ -1,15 +1,14 @@
 import reactLogo from "./assets/techs/react.svg";
 import "./App.css";
-import pkg from "../package.json";
 import DarkModeReact from "darkmode-react-component";
 import ReactTechsLogos from "./components/ReactTechsLogos";
 import ModalInstall from "./components/ModalInstall";
 import { useLayoutEffect, useState } from "react";
 import techs from "./components/ReactTechsLogos/techs";
+import Footer from "./components/Footer";
 // import ReactTechsLogos from 'react-techs-logos'
 
 function App() {
-  const version: string = pkg.version;
   const [search, setSearch] = useState("");
   const [modalInstall, setModalInstall] = useState(false);
   const filteredArray = techs
@@ -32,11 +31,11 @@ function App() {
       <div>
         <a
           className="logo react"
-          href="https://github.com/criar-art/react-techs-logos"
+          href="https://www.npmjs.com/package/react-techs-logos"
           target="_blank"
         >
           <img src={reactLogo} alt="React logo" />
-          <h1>react-techs-logos@{version}</h1>
+          <h1>react-techs-logos</h1>
         </a>
         <DarkModeReact hiddenLabel />
       </div>
@@ -72,6 +71,7 @@ function App() {
         />
         <ReactTechsLogos list={filteredArray} />
       </div>
+      <Footer />
     </div>
   );
 }
