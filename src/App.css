@@ -96,6 +96,13 @@ code {
   width: calc(100% - 2rem);
 }
 
+.not-found {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
