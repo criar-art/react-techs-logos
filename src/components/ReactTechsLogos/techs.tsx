@@ -94,6 +94,19 @@ import IconPostgresql from '../../assets/techs/postgresql.svg?react'
 import IconMongoDB from '../../assets/techs/mongodb.svg?react'
 import IconMariaDB from '../../assets/techs/mariadb.svg?react'
 import IconSupabase from '../../assets/techs/supabase.svg?react'
+import IconAMD from '../../assets/techs/amd.svg?react'
+import IconSnapdragon from '../../assets/techs/snapdragon.svg?react'
+import IconUbuntu from '../../assets/techs/ubuntu.svg?react'
+import IconArchLinux from '../../assets/techs/archlinux.svg?react'
+import IconBackbone from '../../assets/techs/backbone.svg?react'
+import IconFedora from '../../assets/techs/fedora.svg?react'
+import IconMint from '../../assets/techs/mint.svg?react'
+import IconDeepin from '../../assets/techs/deepin.svg?react'
+import IconDebian from '../../assets/techs/debian.svg?react'
+import IconOpenSUSE from '../../assets/techs/opensuse.svg?react'
+import IconCentOS from '../../assets/techs/centos.svg?react'
+import IconSlackWare from '../../assets/techs/slackware.svg?react'
+import IconOracle from '../../assets/techs/oracle.svg?react'
 
 import { Tech } from './types'
 
@@ -193,7 +206,20 @@ const techs: Tech[] = [
   { name: 'Postgresql',     icon: <IconPostgresql />,     url: 'https://www.postgresql.org' },
   { name: 'MongoDB',        icon: <IconMongoDB />,        url: 'https://www.mongodb.com' },
   { name: 'MariaDB',        icon: <IconMariaDB />,        url: 'https://mariadb.org' },
-  { name: 'Supabase',       icon: <IconSupabase />,       url: 'https://supabase.com' }
+  { name: 'Supabase',       icon: <IconSupabase />,       url: 'https://supabase.com' },
+  { name: 'AMD',            icon: <IconAMD />,            url: 'https://www.amd.com' },
+  { name: 'SnapDragon',     icon: <IconSnapdragon />,     url: 'https://www.qualcomm.com/snapdragon/overview' },
+  { name: 'Ubuntu',         icon: <IconUbuntu />,         url: 'https://ubuntu.com' },
+  { name: 'ArchLinux',      icon: <IconArchLinux />,      url: 'https://archlinux.org' },
+  { name: 'Fedora',         icon: <IconFedora />,         url: 'https://fedoraproject.org/' },
+  { name: 'Backbone',       icon: <IconBackbone />,       url: 'https://backbonejs.org' },
+  { name: 'Mint',           icon: <IconMint />,           url: 'https://linuxmint.com' },
+  { name: 'Deepin',         icon: <IconDeepin />,         url: 'https://www.deepin.org' },
+  { name: 'Debian',         icon: <IconDebian />,         url: 'https://www.debian.org' },
+  { name: 'openSUSE',       icon: <IconOpenSUSE />,       url: 'https://www.opensuse.org' },
+  { name: 'CentOS',         icon: <IconCentOS />,         url: 'https://www.centos.org' },
+  { name: 'Slackware',      icon: <IconSlackWare />,      url: 'http://www.slackware.com' },
+  { name: 'Oracle',         icon: <IconOracle />,         url: 'https://www.oracle.com' },
 ];
 
 export default techs
