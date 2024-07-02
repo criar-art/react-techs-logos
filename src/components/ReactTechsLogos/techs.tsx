@@ -86,6 +86,14 @@ import IconTensorFlow from '../../assets/techs/tensorflow.svg?react'
 import IconGemini from '../../assets/techs/gemini.svg?react'
 import IconShopify from '../../assets/techs/shopify.svg?react'
 import IconSteam from '../../assets/techs/steam.svg?react'
+import IconGO from '../../assets/techs/go.svg?react'
+import IconRust from '../../assets/techs/rust.svg?react'
+import IconRedis from '../../assets/techs/redis.svg?react'
+import IconKubernets from '../../assets/techs/kubernets.svg?react'
+import IconPostgresql from '../../assets/techs/postgresql.svg?react'
+import IconMongoDB from '../../assets/techs/mongodb.svg?react'
+import IconMariaDB from '../../assets/techs/mariadb.svg?react'
+import IconSupabase from '../../assets/techs/supabase.svg?react'
 
 import { Tech } from './types'
 
@@ -177,7 +185,15 @@ const techs: Tech[] = [
   { name: 'TensorFlow',     icon: <IconTensorFlow />,     url: 'https://www.tensorflow.org' },
   { name: 'Gemini',         icon: <IconGemini />,         url: 'https://gemini.google.com' },
   { name: 'Shopify',        icon: <IconShopify />,        url: 'https://www.shopify.com' },
-  { name: 'Steam',          icon: <IconSteam />,          url: 'https://www.steam.com' }
+  { name: 'Steam',          icon: <IconSteam />,          url: 'https://www.steam.com' },
+  { name: 'Go',             icon: <IconGO />,             url: 'https://go.dev' },
+  { name: 'Rust',           icon: <IconRust />,           url: 'https://www.rust-lang.org' },
+  { name: 'Redis',          icon: <IconRedis />,          url: 'https://redis.io' },
+  { name: 'Kubernets',      icon: <IconKubernets />,      url: 'https://kubernetes.io' },
+  { name: 'Postgresql',     icon: <IconPostgresql />,     url: 'https://www.postgresql.org' },
+  { name: 'MongoDB',        icon: <IconMongoDB />,        url: 'https://www.mongodb.com' },
+  { name: 'MariaDB',        icon: <IconMariaDB />,        url: 'https://mariadb.org' },
+  { name: 'Supabase',       icon: <IconSupabase />,       url: 'https://supabase.com' }
 ];
 
 export default techs
