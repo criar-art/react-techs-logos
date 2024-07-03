@@ -118,6 +118,7 @@ import IconPinterest from '../../assets/techs/pinterest.svg?react'
 import IconInstagram from '../../assets/techs/instagram.svg?react'
 import IconVK from '../../assets/techs/vk.svg?react'
 import IconYandex from '../../assets/techs/yandex.svg?react'
+import IconFirefox from '../../assets/techs/firefox.svg?react'
 
 import { Tech } from './types'
 
@@ -242,6 +243,7 @@ const techs: Tech[] = [
   { name: 'Instagram',      icon: <IconInstagram />,      url: 'https://www.instagram.com' },
   { name: 'VK',             icon: <IconVK />,             url: 'https://www.vk.com' },
   { name: 'Yandex',         icon: <IconYandex />,         url: 'https://www.yandex.ru' },
+  { name: 'Firefox',        icon: <IconFirefox />,        url: 'https://www.mozilla.org/pt-BR/firefox/new/' },
 ];
 
 export default techs
