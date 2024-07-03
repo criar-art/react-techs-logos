@@ -275,7 +275,7 @@ const techs: Tech[] = [
   { name: 'Kotlin',         icon: <IconKotlin />,         url: 'https://kotlinlang.org' },
   { name: 'AndroidStudio',  icon: <IconAndroidStudio />,  url: 'https://developer.android.com/studio' },
   { name: 'SpaceX',         icon: <IconSpaceX />,         url: 'https://www.spacex.com' },
-  { name: 'Torrent',        icon: <IconTorrent />,        url: 'https://www.utorrent.com' },
+  { name: 'uTorrent',       icon: <IconTorrent />,        url: 'https://www.utorrent.com' },
   { name: 'Tor',            icon: <IconTor />,            url: 'https://www.torproject.org' },
   { name: 'Lua',            icon: <IconLua />,            url: 'https://www.lua.org' },
   { name: 'Fortran',        icon: <IconFortran />,        url: 'https://fortran-lang.org' },
