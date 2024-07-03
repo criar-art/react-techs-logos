@@ -22,6 +22,7 @@ import IconCypress from '../../assets/techs/cypress.svg?react'
 import IconGit from '../../assets/techs/git.svg?react'
 import IconPython from '../../assets/techs/python.svg?react'
 import IconLinux from '../../assets/techs/linux.svg?react'
+import IconMacOS from '../../assets/techs/macos.svg?react'
 import IconGithub from '../../assets/techs/github.svg?react'
 import IconMozilla from '../../assets/techs/mozilla.svg?react'
 import IconSafari from '../../assets/techs/safari.svg?react'
@@ -119,6 +120,23 @@ import IconInstagram from '../../assets/techs/instagram.svg?react'
 import IconVK from '../../assets/techs/vk.svg?react'
 import IconYandex from '../../assets/techs/yandex.svg?react'
 import IconFirefox from '../../assets/techs/firefox.svg?react'
+import IconManjaro from '../../assets/techs/manjaro.svg?react'
+import IconNetflix from '../../assets/techs/netflix.svg?react'
+import IconPrimeVideo from '../../assets/techs/primevideo.svg?react'
+import IconHBOMax from '../../assets/techs/max.svg?react'
+import IconApache from '../../assets/techs/apache.svg?react'
+import IconEclipse from '../../assets/techs/eclipse.svg?react'
+import IconTomcat from '../../assets/techs/tomcat.svg?react'
+import IconJetBrains from '../../assets/techs/jetbrains.svg?react'
+import IconIntelliJ from '../../assets/techs/intellij.svg?react'
+import IconKotlin from '../../assets/techs/kotlin.svg?react'
+import IconAndroidStudio from '../../assets/techs/androidstudio.svg?react'
+import IconSpaceX from '../../assets/techs/spacex.svg?react'
+import IconTorrent from '../../assets/techs/torrent.svg?react'
+import IconTor from '../../assets/techs/tor.svg?react'
+import IconLua from '../../assets/techs/lua.svg?react'
+import IconFortran from '../../assets/techs/fortran.svg?react'
+import IconCobol from '../../assets/techs/cobol.svg?react'
 
 import { Tech } from './types'
 
@@ -126,6 +144,7 @@ const techs: Tech[] = [
   { name: 'Android',        icon: <IconAndroid />,        url: 'https://www.android.com' },
   { name: 'Apple',          icon: <IconApple />,          url: 'https://www.apple.com' },
   { name: 'Linux',          icon: <IconLinux />,          url: 'https://ubuntu.com' },
+  { name: 'MacOS',          icon: <IconMacOS />,          url: 'https://www.apple.com/br/macos/sonoma' },
   { name: 'Microsoft',      icon: <IconMicrosoft />,      url: 'https://www.microsoft.com' },
   { name: 'PlayStore',      icon: <IconPlaystore />,      url: 'https://play.google.com' },
   { name: 'PWA',            icon: <IconPwa />,            url: 'https://web.dev/progressive-web-apps' },
@@ -243,7 +262,24 @@ const techs: Tech[] = [
   { name: 'Instagram',      icon: <IconInstagram />,      url: 'https://www.instagram.com' },
   { name: 'VK',             icon: <IconVK />,             url: 'https://www.vk.com' },
   { name: 'Yandex',         icon: <IconYandex />,         url: 'https://www.yandex.ru' },
-  { name: 'Firefox',        icon: <IconFirefox />,        url: 'https://www.mozilla.org/pt-BR/firefox/new/' },
+  { name: 'Firefox',        icon: <IconFirefox />,        url: 'https://www.mozilla.org/pt-BR/firefox/new' },
+  { name: 'Manjaro',        icon: <IconManjaro />,        url: 'https://manjaro.org' },
+  { name: 'Netflix',        icon: <IconNetflix />,        url: 'https://www.netflix.com' },
+  { name: 'PrimeVideo',     icon: <IconPrimeVideo />,     url: 'https://primevideo.com' },
+  { name: 'HBOMax',         icon: <IconHBOMax />,         url: 'https://www.max.com' },
+  { name: 'Apache',         icon: <IconApache />,         url: 'https://www.apache.org' },
+  { name: 'Eclipse',        icon: <IconEclipse />,        url: 'https://eclipseide.org' },
+  { name: 'Tomcat',         icon: <IconTomcat />,         url: 'https://tomcat.apache.org' },
+  { name: 'JetBrains',      icon: <IconJetBrains />,      url: 'https://www.jetbrains.com' },
+  { name: 'IntelliJ',       icon: <IconIntelliJ />,       url: 'https://www.jetbrains.com/idea' },
+  { name: 'Kotlin',         icon: <IconKotlin />,         url: 'https://kotlinlang.org' },
+  { name: 'AndroidStudio',  icon: <IconAndroidStudio />,  url: 'https://developer.android.com/studio' },
+  { name: 'SpaceX',         icon: <IconSpaceX />,         url: 'https://www.spacex.com' },
+  { name: 'Torrent',        icon: <IconTorrent />,        url: 'https://www.utorrent.com' },
+  { name: 'Tor',            icon: <IconTor />,            url: 'https://www.torproject.org' },
+  { name: 'Lua',            icon: <IconLua />,            url: 'https://www.lua.org' },
+  { name: 'Fortran',        icon: <IconFortran />,        url: 'https://fortran-lang.org' },
+  { name: 'Cobol',          icon: <IconCobol />,          url: 'https://en.wikipedia.org/wiki/COBOL' }
 ];
 
 export default techs
