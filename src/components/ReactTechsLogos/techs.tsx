@@ -107,6 +107,13 @@ import IconOpenSUSE from '../../assets/techs/opensuse.svg?react'
 import IconCentOS from '../../assets/techs/centos.svg?react'
 import IconSlackWare from '../../assets/techs/slackware.svg?react'
 import IconOracle from '../../assets/techs/oracle.svg?react'
+import IconElementaryOS from '../../assets/techs/elementaryos.svg?react'
+import IconCopilot from '../../assets/techs/copilot.svg?react'
+import IconRaspberry from '../../assets/techs/raspberry.svg?react'
+import IconKaliLinux from '../../assets/techs/kalilinux.svg?react'
+import IconSpotify from '../../assets/techs/spotify.svg?react'
+import IconSoundCloud from '../../assets/techs/soundcloud.svg?react'
+import IconDeezer from '../../assets/techs/deezer.svg?react'
 
 import { Tech } from './types'
 
@@ -220,6 +227,13 @@ const techs: Tech[] = [
   { name: 'CentOS',         icon: <IconCentOS />,         url: 'https://www.centos.org' },
   { name: 'Slackware',      icon: <IconSlackWare />,      url: 'http://www.slackware.com' },
   { name: 'Oracle',         icon: <IconOracle />,         url: 'https://www.oracle.com' },
+  { name: 'ElementaryOS',   icon: <IconElementaryOS />,   url: 'https://elementary.io' },
+  { name: 'Copilot',        icon: <IconCopilot />,        url: 'https://copilot.microsoft.com' },
+  { name: 'Raspberry',      icon: <IconRaspberry />,      url: 'https://www.raspberrypi.com' },
+  { name: 'KaliLinux',      icon: <IconKaliLinux />,      url: 'https://www.kali.org' },
+  { name: 'Spotify',        icon: <IconSpotify />,        url: 'https://open.spotify.com' },
+  { name: 'SoundCloud',     icon: <IconSoundCloud />,     url: 'https://soundcloud.com' },
+  { name: 'Deezer',         icon: <IconDeezer />,         url: 'https://www.deezer.com' },
 ];
 
 export default techs
