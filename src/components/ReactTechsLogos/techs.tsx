@@ -114,6 +114,10 @@ import IconKaliLinux from '../../assets/techs/kalilinux.svg?react'
 import IconSpotify from '../../assets/techs/spotify.svg?react'
 import IconSoundCloud from '../../assets/techs/soundcloud.svg?react'
 import IconDeezer from '../../assets/techs/deezer.svg?react'
+import IconPinterest from '../../assets/techs/pinterest.svg?react'
+import IconInstagram from '../../assets/techs/instagram.svg?react'
+import IconVK from '../../assets/techs/vk.svg?react'
+import IconYandex from '../../assets/techs/yandex.svg?react'
 
 import { Tech } from './types'
 
@@ -234,6 +238,10 @@ const techs: Tech[] = [
   { name: 'Spotify',        icon: <IconSpotify />,        url: 'https://open.spotify.com' },
   { name: 'SoundCloud',     icon: <IconSoundCloud />,     url: 'https://soundcloud.com' },
   { name: 'Deezer',         icon: <IconDeezer />,         url: 'https://www.deezer.com' },
+  { name: 'Pinterest',      icon: <IconPinterest />,      url: 'https://www.pinterest.com' },
+  { name: 'Instagram',      icon: <IconInstagram />,      url: 'https://www.instagram.com' },
+  { name: 'VK',             icon: <IconVK />,             url: 'https://www.vk.com' },
+  { name: 'Yandex',         icon: <IconYandex />,         url: 'https://www.yandex.ru' },
 ];
 
 export default techs
