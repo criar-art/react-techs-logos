@@ -86,6 +86,39 @@ import IconTensorFlow from '../../assets/techs/tensorflow.svg?react'
 import IconGemini from '../../assets/techs/gemini.svg?react'
 import IconShopify from '../../assets/techs/shopify.svg?react'
 import IconSteam from '../../assets/techs/steam.svg?react'
+import IconGO from '../../assets/techs/go.svg?react'
+import IconRust from '../../assets/techs/rust.svg?react'
+import IconRedis from '../../assets/techs/redis.svg?react'
+import IconKubernets from '../../assets/techs/kubernets.svg?react'
+import IconPostgresql from '../../assets/techs/postgresql.svg?react'
+import IconMongoDB from '../../assets/techs/mongodb.svg?react'
+import IconMariaDB from '../../assets/techs/mariadb.svg?react'
+import IconSupabase from '../../assets/techs/supabase.svg?react'
+import IconAMD from '../../assets/techs/amd.svg?react'
+import IconSnapdragon from '../../assets/techs/snapdragon.svg?react'
+import IconUbuntu from '../../assets/techs/ubuntu.svg?react'
+import IconArchLinux from '../../assets/techs/archlinux.svg?react'
+import IconBackbone from '../../assets/techs/backbone.svg?react'
+import IconFedora from '../../assets/techs/fedora.svg?react'
+import IconMint from '../../assets/techs/mint.svg?react'
+import IconDeepin from '../../assets/techs/deepin.svg?react'
+import IconDebian from '../../assets/techs/debian.svg?react'
+import IconOpenSUSE from '../../assets/techs/opensuse.svg?react'
+import IconCentOS from '../../assets/techs/centos.svg?react'
+import IconSlackWare from '../../assets/techs/slackware.svg?react'
+import IconOracle from '../../assets/techs/oracle.svg?react'
+import IconElementaryOS from '../../assets/techs/elementaryos.svg?react'
+import IconCopilot from '../../assets/techs/copilot.svg?react'
+import IconRaspberry from '../../assets/techs/raspberry.svg?react'
+import IconKaliLinux from '../../assets/techs/kalilinux.svg?react'
+import IconSpotify from '../../assets/techs/spotify.svg?react'
+import IconSoundCloud from '../../assets/techs/soundcloud.svg?react'
+import IconDeezer from '../../assets/techs/deezer.svg?react'
+import IconPinterest from '../../assets/techs/pinterest.svg?react'
+import IconInstagram from '../../assets/techs/instagram.svg?react'
+import IconVK from '../../assets/techs/vk.svg?react'
+import IconYandex from '../../assets/techs/yandex.svg?react'
+import IconFirefox from '../../assets/techs/firefox.svg?react'
 
 import { Tech } from './types'
 
@@ -177,7 +210,40 @@ const techs: Tech[] = [
   { name: 'TensorFlow',     icon: <IconTensorFlow />,     url: 'https://www.tensorflow.org' },
   { name: 'Gemini',         icon: <IconGemini />,         url: 'https://gemini.google.com' },
   { name: 'Shopify',        icon: <IconShopify />,        url: 'https://www.shopify.com' },
-  { name: 'Steam',          icon: <IconSteam />,          url: 'https://www.steam.com' }
+  { name: 'Steam',          icon: <IconSteam />,          url: 'https://www.steam.com' },
+  { name: 'Go',             icon: <IconGO />,             url: 'https://go.dev' },
+  { name: 'Rust',           icon: <IconRust />,           url: 'https://www.rust-lang.org' },
+  { name: 'Redis',          icon: <IconRedis />,          url: 'https://redis.io' },
+  { name: 'Kubernets',      icon: <IconKubernets />,      url: 'https://kubernetes.io' },
+  { name: 'Postgresql',     icon: <IconPostgresql />,     url: 'https://www.postgresql.org' },
+  { name: 'MongoDB',        icon: <IconMongoDB />,        url: 'https://www.mongodb.com' },
+  { name: 'MariaDB',        icon: <IconMariaDB />,        url: 'https://mariadb.org' },
+  { name: 'Supabase',       icon: <IconSupabase />,       url: 'https://supabase.com' },
+  { name: 'AMD',            icon: <IconAMD />,            url: 'https://www.amd.com' },
+  { name: 'SnapDragon',     icon: <IconSnapdragon />,     url: 'https://www.qualcomm.com/snapdragon/overview' },
+  { name: 'Ubuntu',         icon: <IconUbuntu />,         url: 'https://ubuntu.com' },
+  { name: 'ArchLinux',      icon: <IconArchLinux />,      url: 'https://archlinux.org' },
+  { name: 'Fedora',         icon: <IconFedora />,         url: 'https://fedoraproject.org/' },
+  { name: 'Backbone',       icon: <IconBackbone />,       url: 'https://backbonejs.org' },
+  { name: 'Mint',           icon: <IconMint />,           url: 'https://linuxmint.com' },
+  { name: 'Deepin',         icon: <IconDeepin />,         url: 'https://www.deepin.org' },
+  { name: 'Debian',         icon: <IconDebian />,         url: 'https://www.debian.org' },
+  { name: 'openSUSE',       icon: <IconOpenSUSE />,       url: 'https://www.opensuse.org' },
+  { name: 'CentOS',         icon: <IconCentOS />,         url: 'https://www.centos.org' },
+  { name: 'Slackware',      icon: <IconSlackWare />,      url: 'http://www.slackware.com' },
+  { name: 'Oracle',         icon: <IconOracle />,         url: 'https://www.oracle.com' },
+  { name: 'ElementaryOS',   icon: <IconElementaryOS />,   url: 'https://elementary.io' },
+  { name: 'Copilot',        icon: <IconCopilot />,        url: 'https://copilot.microsoft.com' },
+  { name: 'Raspberry',      icon: <IconRaspberry />,      url: 'https://www.raspberrypi.com' },
+  { name: 'KaliLinux',      icon: <IconKaliLinux />,      url: 'https://www.kali.org' },
+  { name: 'Spotify',        icon: <IconSpotify />,        url: 'https://open.spotify.com' },
+  { name: 'SoundCloud',     icon: <IconSoundCloud />,     url: 'https://soundcloud.com' },
+  { name: 'Deezer',         icon: <IconDeezer />,         url: 'https://www.deezer.com' },
+  { name: 'Pinterest',      icon: <IconPinterest />,      url: 'https://www.pinterest.com' },
+  { name: 'Instagram',      icon: <IconInstagram />,      url: 'https://www.instagram.com' },
+  { name: 'VK',             icon: <IconVK />,             url: 'https://www.vk.com' },
+  { name: 'Yandex',         icon: <IconYandex />,         url: 'https://www.yandex.ru' },
+  { name: 'Firefox',        icon: <IconFirefox />,        url: 'https://www.mozilla.org/pt-BR/firefox/new/' },
 ];
 
 export default techs
