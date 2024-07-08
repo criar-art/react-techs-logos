@@ -64,6 +64,6 @@
     "vite": "^5.3.3",
     "vite-plugin-style-inject": "^0.0.1",
     "vite-plugin-svgr": "^4.2.0",
-    "vitest": "^1.6.0"
+    "vitest": "^2.0.1"
   }
 }
