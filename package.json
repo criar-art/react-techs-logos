@@ -45,8 +45,8 @@
     "react-techs-logos": "^0.1.14"
   },
   "devDependencies": {
-    "@testing-library/dom": "^10.3.2",
-    "@testing-library/jest-dom": "^6.4.6",
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.4.7",
     "@testing-library/react": "^16.0.0",
     "@types/node": "^20.14.11",
     "@types/react": "^18.3.3",
@@ -64,6 +64,6 @@
     "vite": "^5.3.4",
     "vite-plugin-style-inject": "^0.0.1",
     "vite-plugin-svgr": "^4.2.0",
-    "vitest": "^2.0.3"
+    "vitest": "^2.0.4"
   }
 }
