@@ -1,3 +1,4 @@
+import Code from '../Code';
 import "./style.scss";
 
 function ModalInstall(props: any) {
@@ -19,21 +20,21 @@ function ModalInstall(props: any) {
       </button>
       <div className="modal-content">
         <h2>Install</h2>
-        <code>npm install --save react-techs-logos</code>
+        <Code language="shell">npm install --save react-techs-logos</Code>
         <h2>Usage</h2>
-        <code>import ReactTechsLogs from 'react-techs-logos'</code>
-        <br />
-        <code>{`<ReactTechsLogos name="facebook" />`}</code>
-        <h2 className="title">Hidden Label</h2>
-        <code>{`<ReactTechsLogos name="facebook" hiddenLabel />`}</code>
-        <h2 className="title">List of techs filtered</h2>
-        <code>
+        <Code language="jsx">{`import ReactTechsLogs from 'react-techs-logos'
+
+<ReactTechsLogos name="facebook" />`}</Code>
+        <h2 className="title">hiddenLabel</h2>
+        <Code language="jsx">{`<ReactTechsLogos name="facebook" hiddenLabel />`}</Code>
+        <h2 className="title">List</h2>
+        <Code language="jsx">
           {`<ReactTechsLogos list={['vue', 'react', 'angular', 'ember']} />`}
-        </code>
-        <h2 className="title">List of techs hiddenLogos</h2>
-        <code>
+        </Code>
+        <h2 className="title">hiddenLogos</h2>
+        <Code language="jsx">
           {`<ReactTechsLogos hiddenLogos={['android', 'apple', 'vue', 'react', 'angular', 'ember']} />`}
-        </code>
+        </Code>
       </div>
     </div>
   );
