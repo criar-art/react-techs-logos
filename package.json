@@ -8,6 +8,7 @@
   "bugs": {
     "url": "https://github.com/criar-art/react-techs-logos/issues"
   },
+  "homepage": "https://angular-techs-logos.web.app",
   "keywords": [
     "react",
     "components",
@@ -21,7 +22,7 @@
     "test": "vitest",
     "build": "tsc && vite build",
     "build:module": "tsc && vite build --config vite-module.config.js && npm run postbuild",
-    "postbuild": "node scripts/generate-dist.js",
+    "postbuild": "node scripts/post-build.js",
     "prod": "npm version patch && npm run build:module && npm publish",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",

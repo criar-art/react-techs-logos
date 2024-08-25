@@ -21,6 +21,7 @@ const distPackageJson = {
   description: pkg.description,
   repository: pkg.repository,
   bugs: pkg.bugs,
+  homepage: pkg.homepage,
   private: false,
   type: "module",
   keywords: pkg.keywords,
