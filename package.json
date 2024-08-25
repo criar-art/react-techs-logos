@@ -1,14 +1,8 @@
 {
   "name": "react-techs-logos",
-  "private": false,
+  "private": true,
   "version": "0.1.15",
   "type": "module",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/react-techs-logos.umd.cjs",
-  "module": "./dist/react-techs-logos.js",
-  "types": "./dist/main.d.ts",
   "author": "lucasferreiralimax (https://github.com/lucasferreiralimax)",
   "repository": "https://github.com/criar-art/react-techs-logos",
   "bugs": {
@@ -22,21 +16,16 @@
     "logos",
     "ui"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/react-techs-logos.js",
-      "require": "./dist/react-techs-logos.umd.js"
-    },
-    "./dist/style.css": "./dist/style.css"
-  },
   "scripts": {
     "dev": "vite",
     "test": "vitest",
     "build": "tsc && vite build",
-    "build:module": "tsc && vite build --config vite-module.config.js",
+    "build:module": "tsc && vite build --config vite-module.config.js && npm run postbuild",
+    "postbuild": "node scripts/generate-dist.js",
     "prod": "npm version patch && npm run build:module && npm publish",
     "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "publish": "cd dist && npm pub && cd .."
   },
   "dependencies": {
     "darkmode-react-component": "^0.1.7",
@@ -60,6 +49,7 @@
     "eslint-plugin-react-hooks": "^4.6.2",
     "eslint-plugin-react-refresh": "^0.4.9",
     "jsdom": "^24.1.1",
+    "jsonminify": "^0.4.2",
     "sass": "^1.77.8",
     "typescript": "^5.5.4",
     "vite": "^5.4.1",
