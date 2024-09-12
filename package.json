@@ -54,7 +54,7 @@
     "jsonminify": "^0.4.2",
     "sass": "^1.78.0",
     "typescript": "^5.6.2",
-    "vite": "^5.4.3",
+    "vite": "^5.4.4",
     "vite-plugin-style-inject": "^0.0.1",
     "vite-plugin-svgr": "^4.2.0",
     "vitest": "^2.0.5"
