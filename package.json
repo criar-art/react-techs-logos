@@ -53,7 +53,7 @@
     "jsdom": "^25.0.1",
     "jsonminify": "^0.4.2",
     "sass": "^1.79.4",
-    "typescript": "^5.6.2",
+    "typescript": "^5.6.3",
     "vite": "^5.4.8",
     "vite-plugin-style-inject": "^0.0.1",
     "vite-plugin-svgr": "^4.2.0",
