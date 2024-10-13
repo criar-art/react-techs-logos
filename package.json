@@ -34,7 +34,7 @@
     "highlight.js": "^11.10.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-techs-logos": "^0.1.21"
+    "react-techs-logos": "^0.1.22"
   },
   "devDependencies": {
     "@testing-library/dom": "^10.4.0",
