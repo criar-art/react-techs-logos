@@ -46,7 +46,7 @@ function App() {
       <div className="content">
         <h2 className="title">List of techs</h2>
         <div className="install">
-          <code>{`<ReactTechsLogos />`}</code>
+          <code>{`npm install react-techs-logos`}</code>
           <button type="button" onClick={() => setModalInstall(true)}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
