@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="#0071b5" aria-label="Backbone" viewBox="0 0 512 512">
+<svg class="tech-icon" xmlns="http://www.w3.org/2000/svg" fill="#0071b5" aria-label="Backbone" viewBox="0 0 512 512">
   <rect width="512" height="512" fill="#fff" rx="100%"/>
   <g stroke="#848484" stroke-width="2">
     <path d="M380 102v167l-124 70v-48l83-47v-74l-83 47v-44l124-71"/>

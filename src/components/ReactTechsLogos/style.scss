@@ -21,7 +21,7 @@ figure.tech-container {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transition: .3s all;
+  transition: 0.3s all;
   &:hover {
     background: var(--vtl-background);
     border-color: var(--vtl-background);
@@ -29,16 +29,21 @@ figure.tech-container {
   }
   svg {
     height: 50px;
-    margin-bottom: .2rem;
+    margin-bottom: 0.2rem;
   }
+}
+
+.tech-icon {
+  width: 50px;
+  height: 50px;
 }
 
 figure {
   position: relative;
   text-align: center;
-  margin: .2rem;
+  margin: 0.2rem;
   figcaption {
-    font-size: .7rem;
+    font-size: 0.7rem;
     &.tooltip {
       position: absolute;
       bottom: 2%;
@@ -48,7 +53,7 @@ figure {
       border-radius: 5px;
       pointer-events: none;
       opacity: 0;
-      transition: .3s all;
+      transition: 0.3s all;
       color: #fff;
     }
   }
@@ -61,45 +66,61 @@ figure {
 }
 
 body {
-  --vtl-background: rgba(0,0,0, .05);
+  --vtl-background: rgba(0, 0, 0, 0.05);
   --vtl-background-tooltip: #444;
-  --vtl-shadow-tooltip: rgba(0,0,0,.2);
+  --vtl-shadow-tooltip: rgba(0, 0, 0, 0.2);
   --vtl-text: #000;
   --vtl-background-svg: #000;
   --vtl-background-svg-invert: #fff;
-  --vtl-background-gradient: linear-gradient(228deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 60%);
+  --vtl-background-gradient: linear-gradient(
+    228deg,
+    rgba(238, 238, 238, 1) 0%,
+    rgba(255, 255, 255, 1) 60%
+  );
 }
 
 body.darkmode {
-  --vtl-background: rgba(0,0,0, .5);
+  --vtl-background: rgba(0, 0, 0, 0.5);
   --vtl-background-tooltip: #444;
-  --vtl-shadow-tooltip: rgba(0,0,0,.2);
+  --vtl-shadow-tooltip: rgba(0, 0, 0, 0.2);
   --vtl-text: #fff;
   --vtl-background-svg: #fff;
   --vtl-background-svg-invert: #000;
-  --vtl-background-gradient: linear-gradient(228deg, rgb(24, 24, 24) 0%, rgb(38, 38, 38) 60%);
+  --vtl-background-gradient: linear-gradient(
+    228deg,
+    rgb(24, 24, 24) 0%,
+    rgb(38, 38, 38) 60%
+  );
 }
 
 @media (prefers-color-scheme: light) {
   :root {
-    --vtl-background: rgba(0,0,0, .05);
+    --vtl-background: rgba(0, 0, 0, 0.05);
     --vtl-background-tooltip: #444;
-    --vtl-shadow-tooltip: rgba(0,0,0,.2);
+    --vtl-shadow-tooltip: rgba(0, 0, 0, 0.2);
     --vtl-text: #000;
     --vtl-background-svg: #000;
     --vtl-background-svg-invert: #fff;
-    --vtl-background-gradient: linear-gradient(228deg, rgba(238,238,238,1) 0%, rgba(255,255,255,1) 60%);
+    --vtl-background-gradient: linear-gradient(
+      228deg,
+      rgba(238, 238, 238, 1) 0%,
+      rgba(255, 255, 255, 1) 60%
+    );
   }
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --vtl-background: rgba(0,0,0, .5);
+    --vtl-background: rgba(0, 0, 0, 0.5);
     --vtl-background-tooltip: #444;
-    --vtl-shadow-tooltip: rgba(0,0,0,.2);
+    --vtl-shadow-tooltip: rgba(0, 0, 0, 0.2);
     --vtl-text: #fff;
     --vtl-background-svg: #fff;
     --vtl-background-svg-invert: #000;
-    --vtl-background-gradient: linear-gradient(228deg, rgb(24, 24, 24) 0%, rgb(38, 38, 38) 60%);
+    --vtl-background-gradient: linear-gradient(
+      228deg,
+      rgb(24, 24, 24) 0%,
+      rgb(38, 38, 38) 60%
+    );
   }
 }

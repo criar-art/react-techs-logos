@@ -1,5 +1,5 @@
 
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 -200 1102 678">
+<svg class="tech-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 -200 1102 678">
   <style>
     @media (prefers-color-scheme: dark) {
       .mongodb {fill:#fff;}

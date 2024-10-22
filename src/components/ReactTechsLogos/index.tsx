@@ -31,16 +31,22 @@ function ReactTechsLogos(props: any) {
 
   return (
     <>
-      {props.name && getTech(props.name) && !props.list ? (
+      {props.raw ? (
+        props.name && getTech(props.name) && !props.list ? (
+          getTech(props.name)?.icon
+        ) : (
+          listTechs.map((tech) => tech.icon)
+        )
+      ) : props.name && getTech(props.name) && !props.list ? (
         <figure
-          className={`${props.className ? props.className : ""} ${getTech(
+          className={`tech-container ${props.className || ""} ${getTech(
             props.name
-          ).name.toLocaleLowerCase()}`}
-          style={{ width: props.size ? props.size : "100px" }}
+          )?.name.toLowerCase()}`}
+          style={{ width: props.size || "100px" }}
         >
-          {getTech(props.name).icon}
+          {getTech(props.name)?.icon}
           <figcaption className={props.hiddenLabel ? "tooltip" : ""}>
-            {getTech(props.name).name}
+            {getTech(props.name)?.name}
           </figcaption>
         </figure>
       ) : (
@@ -52,11 +58,11 @@ function ReactTechsLogos(props: any) {
               ? "techs-container-hiddenLogos"
               : "techs-container"
           }
-          className={`techs ${props.className ? props.className : ""}`}
+          className={`techs ${props.className || ""}`}
         >
           {listTechs.map((tech) => (
             <figure
-              className={`tech-container ${tech.name.toLocaleLowerCase()}`}
+              className={`tech-container ${tech.name.toLowerCase()}`}
               key={tech.name}
             >
               {tech.icon}

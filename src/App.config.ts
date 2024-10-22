@@ -46,5 +46,10 @@ import ReactTechsLogs from 'react-techs-logos'
   ]}
 />`,
     },
+    {
+      name: 'raw',
+      language: 'tsx',
+      content: `<ReactTechsLogos raw />`,
+    },
   ],
 }
