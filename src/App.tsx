@@ -3,6 +3,7 @@ import { useState } from "react";
 import NucleusReact from 'nucleus-react-js';
 import techs from "./components/ReactTechsLogos/techs";
 import { configApp } from "./App.config";
+import "./App.scss";
 // import ReactTechsLogos from 'react-techs-logos'
 
 function App() {
