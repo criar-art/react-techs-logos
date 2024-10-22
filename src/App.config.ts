@@ -13,7 +13,7 @@ export const configApp = {
       content: 'npm install react-techs-logos',
     },
     {
-      name: 'Usagen',
+      name: 'Usage',
       language: 'tsx',
       content: `
 import ReactTechsLogs from 'react-techs-logos'
@@ -28,12 +28,23 @@ import ReactTechsLogs from 'react-techs-logos'
     {
       name: 'List',
       language: 'tsx',
-      content: `<ReactTechsLogos list={['vue', 'react', 'angular', 'ember']} />`,
+      content: `<ReactTechsLogos
+  list={['vue', 'react', 'angular', 'ember']}
+/>`,
     },
     {
       name: 'hiddenLogos',
       language: 'tsx',
-      content: `<ReactTechsLogos hiddenLogos={['android', 'apple', 'vue', 'react', 'angular', 'ember']} />`,
+      content: `<ReactTechsLogos
+  hiddenLogos={[
+    'android',
+    'apple',
+    'vue',
+    'react',
+    'angular',
+    'ember'
+  ]}
+/>`,
     },
   ],
 }
