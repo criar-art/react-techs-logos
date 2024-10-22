@@ -28,4 +28,8 @@ import ReactTechsLogs from 'react-techs-logos';
 // Hidden label
 <ReactTechsLogos name="javascript" hiddenLabel />
 <ReactTechsLogos hiddenLabel />
+
+// Raw
+<ReactTechsLogos name="javascript" raw />
+<ReactTechsLogos raw/>
 ```
