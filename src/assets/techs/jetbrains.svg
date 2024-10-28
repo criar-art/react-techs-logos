@@ -1,13 +1,13 @@
-<svg class="tech-icon" fill="none" viewBox="0 0 64 64" class="_siteLogo__image_3fer6 _siteLogo__image_il5wq">
+<svg class="tech-icon" fill="none" viewBox="0 0 64 64">
   <defs>
-    <linearGradient id="__WEBTEAM_UI_SITE_HEADER_LOGO_ID__0" x1="1" x2="62.75" y1="63" y2="1.25"
+    <linearGradient id="jetbrains" x1="1" x2="62.75" y1="63" y2="1.25"
       gradientUnits="userSpaceOnUse">
       <stop stop-color="#FF9419"></stop>
       <stop offset="0.43" stop-color="#FF021D"></stop>
       <stop offset="0.99" stop-color="#E600FF"></stop>
     </linearGradient>
   </defs>
-  <path fill="url(#__WEBTEAM_UI_SITE_HEADER_LOGO_ID__0)"
+  <path fill="url(#jetbrains)"
     d="M22.14 0H59c2.76 0 5 2.24 5 5v36.86c0 2.65-1.055 5.195-2.93 7.07L48.93 61.07A10.003 10.003 0 0 1 41.86 64H5c-2.76 0-5-2.24-5-5V22.14c0-2.65 1.055-5.195 2.93-7.07L15.07 2.93A10.003 10.003 0 0 1 22.14 0Z"></path>
   <path fill="#000" d="M52 12H6v46h46V12Z"></path>
   <g fill="#fff" class="jetbrains-simple_svg__letters-to-show-hovered">
