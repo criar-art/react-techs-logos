@@ -1,3 +1,17 @@
+.inputs-actions {
+  display: flex;
+  gap: 20px;
+}
+
+.checkbox-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  label input {
+    margin-right: 1rem;
+  }
+}
+
 .input-search {
   padding: 1rem;
   margin: 0 0 1rem;
@@ -6,7 +20,7 @@
   border: 1px solid var(--vtl-background);
   box-shadow: 0 0 0 1px #fff3;
   color: var(--vtl-text);
-  width: calc(100% - 2rem);
+  width: calc(100% - 190px);
 }
 
 .not-found {
