@@ -50,14 +50,16 @@ function App() {
               />
               Raw
             </label>
-            <label>
-              <input
-                type="checkbox"
-                checked={hiddenLabel}
-                onChange={() => setHiddenLabel((prev: boolean) => !prev)}
-              />
-              Hidden Label
-            </label>
+            {!showRaw && (
+              <label>
+                <input
+                  type="checkbox"
+                  checked={hiddenLabel || showRaw}
+                  onChange={() => setHiddenLabel((prev: boolean) => !prev)}
+                />
+                Hidden Label
+              </label>
+            )}
           </div>
         </div>
 
